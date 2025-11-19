@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration til aktiviteter der styrker mentalt sundhed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3502b099e4.js" crossorigin="anonymous"></script>
+    <script src="js/navigation.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="dyrogdereseffekt.html">Dyr og deres effekt</a></li>
+                <li><a href="kontaktos.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <a href="index.html"><img class="logo" src="img/Screenshot_2025-11-06_at_09.56.02-removebg-preview.png" alt="logo"></a> <!--navigationslogo-->
+
+        <!-- Bars -->
+         <button id="bars">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+    <main>
+       <section class="kontaktinfo">
+            <h1>Kontakt Os</h1>
+           
+                <h2>Du kan kotakte os på:</h2>
+                <div class="kontakt">
+                <div>
+                    <div>
+                        <h2>Telefon:</h2>
+                        <p>01 02 03 04</p>
+                    </div>
+                    <img class="telefonicon" src="img/telephone-icon-removebg-preview.png" alt="icon af en telefon med en blå baggrund og to hvide hjerter">
+                </div>
+                <div>
+               <div>
+                <h2>Email:</h2>
+                <p>MSO@gmail.com</p>
+               </div>
+                <img class="mailicon" src="img/mail-icon.png" alt="icon af en kuvert med en blå baggrund">
+                </div>
+            </div>
+            <p class="tekst-til-kontakt">Du er altid velkommen til at kontakte os hvis du har spørgsmål eller hvis du har behov for nogen at tale med</p>
+        </section>
+
+        <section class="kontaktform">
+        <h2>Du kan også kontakte os via kontaktformularen</h2>
+        <form>
+
+             <label class="visually-hidden" for="navn">Navn</label>
+            <input id="navn" type="text" placeholder="Navn" required>
+
+            <label class="visually-hidden" for="mail">E-mail</label>
+            <input id="mail" type="email" placeholder="E-mail" required>
+
+            <label class="visually-hidden" for="tel">Telefon</label>
+            <input id="tel" type="tel" placeholder="Telefon" required>
+
+             <fieldset class="checkbox">
+                <legend>Hvad ønsker du svar på?</legend>
+                <div>
+                    <input id="mentalt-sundhed" type="checkbox">
+                    <label for="mentalt-sundhed">Mentalt Sundhed</label>
+                </div>
+
+                <div>
+                    <input id="goderåd" type="checkbox">
+                    <label for="goderåd">Gode råd til mentalt sundhed</label>
+                </div>
+
+                <div>
+                    <input id="hunde" type="checkbox">
+                    <label for="hunde">Hunde og deres effekt</label>
+                </div>
+
+                <div>
+                    <input id="servicehund" type="checkbox">
+                    <label for="servicehund">Servicehund</label>
+                </div>
+            </fieldset>
+
+            <label for="besked">Besked</label>
+            <textarea id="besked" cols="30" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Vil du kontaktes på telefon eller E-mail?</legend>
+
+                <input id="tel" type="radio" name="kontakt">
+                <label for="tel">Telefon</label>
+
+                <input id="mail" type="radio" name="kontakt">
+                <label for="mail">E-mail</label>
+
+            </fieldset>
+
+             <input type="submit" name="submit" value="Send besked">
+
+        </form>
+        </section>
+
+        <section class="omos">
+            <h2>Lidt Om Os</h2>
+            <p>Vi er en organisation som arbejder på at hjælpe unge mennesker der kæmper med deres mentale sundhed. Vi vil gerne gøre det nemmere for unge til at få hjælp med deres mentale sundhed. Derfor tilbyder vi hjælp med at forstå hvad mentalt sundhed er, og hvordan man selv kan gøre noget for at styrke sit mentale sundhed. Vi har histroier fra unge kvinder der har fået bevilligt en servicehund der hjælper dem. Vi vil gerne opnå en forståelse af mentalt sundhed, men også hvorda man kan styrke sit mentale sundhed selv.</p>
+        </section>
+
+        <img class="sidstebillede" src="img/kontaktside.png" alt="">
+
+        <footer>  
+           <div class="footer-info">
+            <a href="index.html"></a><img class="logo1" src="img/Screenshot_2025-11-06_at_09.56.02-removebg-preview.png" alt="logo"></a>
+            <div>
+                <h3>Kontakt</h3>
+                    <p>Email: MSO@gmail.com</p>
+                    <p>Telefon: 01 02 03 04</p> 
+            </div>
+            <div>
+                <h3>Addresse</h3>
+                    <p>Kolding Åpark 18A</p>
+                    <p>6000 Kolding</p>
+            </div>
+            </div>
+            <p class="copyright">© 2025 Mentalt Sundhed Opmærksomhed</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
